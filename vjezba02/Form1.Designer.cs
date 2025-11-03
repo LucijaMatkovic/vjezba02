@@ -42,7 +42,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.nupIspit = new System.Windows.Forms.NumericUpDown();
             this.label6 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.mtbMobilni = new System.Windows.Forms.MaskedTextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.rbMusko = new System.Windows.Forms.RadioButton();
             this.rbZensko = new System.Windows.Forms.RadioButton();
@@ -183,13 +183,13 @@
             this.label6.TabIndex = 13;
             this.label6.Text = "Mobilni:";
             // 
-            // maskedTextBox1
+            // mtbMobilni
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(64, 162);
-            this.maskedTextBox1.Mask = "(999) 000-00-00";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(100, 20);
-            this.maskedTextBox1.TabIndex = 14;
+            this.mtbMobilni.Location = new System.Drawing.Point(64, 162);
+            this.mtbMobilni.Mask = "(999) 000-00-00";
+            this.mtbMobilni.Name = "mtbMobilni";
+            this.mtbMobilni.Size = new System.Drawing.Size(100, 20);
+            this.mtbMobilni.TabIndex = 14;
             // 
             // label7
             // 
@@ -259,8 +259,9 @@
             // 
             // mcKalendar
             // 
+            this.mcKalendar.CalendarDimensions = new System.Drawing.Size(1, 2);
             this.mcKalendar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.mcKalendar.Location = new System.Drawing.Point(382, 0);
+            this.mcKalendar.Location = new System.Drawing.Point(395, 0);
             this.mcKalendar.Name = "mcKalendar";
             this.mcKalendar.TabIndex = 21;
             // 
@@ -268,7 +269,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(581, 308);
+            this.ClientSize = new System.Drawing.Size(594, 382);
             this.Controls.Add(this.mcKalendar);
             this.Controls.Add(this.btnPotvrdi);
             this.Controls.Add(this.lbFakultet);
@@ -276,7 +277,7 @@
             this.Controls.Add(this.rbZensko);
             this.Controls.Add(this.rbMusko);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.mtbMobilni);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.nupIspit);
             this.Controls.Add(this.label5);
@@ -316,7 +317,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.NumericUpDown nupIspit;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox mtbMobilni;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.RadioButton rbMusko;
         private System.Windows.Forms.RadioButton rbZensko;
